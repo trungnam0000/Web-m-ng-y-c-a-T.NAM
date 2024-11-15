@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đếm Ngược Sự Kiện By T.NAM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Thanh thông báo -->
+<div id="notification">
+    <span>Thông báo:</span>
+    Web này là của T.NAM. Liên hệ admin: <a href="https://www.facebook.com/profile.php?id=100080482121127&mibextid=ZbWKwL" target="_blank">Facebook</a>. Nếu có cần thì hãy liên hệ admin.
+    <span class="close-btn" onclick="closeNotification()">X</span>
+</div>
+
+<!-- Logo và tiêu đề -->
+<div id="header">
+    <img id="logo" src="https://i.postimg.cc/4x4SdLD0/IMG-1698074550023-1698246081099.png" alt="Logo">
+    <h1 id="countdown-title">Đếm Ngược Sự Kiện By T.NAM</h1>
+</div>
+
+<!-- Đếm ngược -->
+<div id="countdown">
+    <div id="countdown-clock"></div>
+    <div id="event-info"></div>
+</div>
+
+<!-- Thông báo chúc mừng -->
+<div id="congrats-message"></div>
+
+<!-- Thông tin địa chỉ và ngày tháng -->
+<div id="userIP"></div>
+<div id="userLocation"></div>
+<div id="currentDate"></div>
+
+<!-- Footer -->
+<div id="footer">
+    <p>&copy; Copyright By T.NAM</p>
+    <p><a href="https://yourwebsite.com" target="_blank">Truy cập website chính</a></p>
+</div>
+
+<!-- Đoạn script cho đếm ngược và lấy IP -->
+<script src="script.js"></script>
+
+</body>
+</html>

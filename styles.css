@@ -1,0 +1,120 @@
+/* Cơ bản cho toàn bộ trang */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Thanh thông báo */
+#notification {
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#notification span {
+    font-weight: bold;
+    color: red;
+}
+
+#notification .close-btn {
+    font-size: 18px;
+    color: #ff4444;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/* Logo */
+#logo {
+    max-width: 100px;
+    display: inline-block;
+}
+
+/* Phần tiêu đề */
+#countdown-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+/* Phần đếm ngược */
+#countdown {
+    font-size: 48px;
+    color: #ffcc00;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#event-info {
+    font-size: 24px;
+    color: #ff6600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Thông báo chúc mừng */
+#congrats-message {
+    text-align: center;
+    font-size: 24px;
+    color: #00cc00;
+    margin: 20px 0;
+}
+
+/* Các phần thông tin ngày tháng năm */
+#userIP, #userLocation, #currentDate {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+}
+
+#footer a {
+    color: #00cc00;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* Hiệu ứng sự kiện */
+.effect-new-year {
+    background-color: #FFD700;
+    transition: background-color 2s;
+}
+
+.effect-christmas {
+    background-color: #008000;
+    transition: background-color 2s;
+}
+
+.effect-halloween {
+    background-color: #FFA500;
+    transition: background-color 2s;
+}
+
+.effect-mid-autumn {
+    background-color: #FFDAB9;
+    transition: background-color 2s;
+}
